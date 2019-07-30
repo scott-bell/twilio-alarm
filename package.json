@@ -1,0 +1,23 @@
+{
+  "name": "TwilioAlarm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Application that listens for incoming Twilio call and sends SMS to a list of users",
+  "main": "twilio-alarm.js",
+  "scripts": {
+    "start": "node twilio-alarm.js"
+  },
+  "keywords": [
+    "twilio"
+  ],
+  "author": "Scott Bell",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3",
+    "twilio": "^3.33.2"
+  }
+}
